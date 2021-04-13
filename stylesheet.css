@@ -1,0 +1,180 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #f1f3f5;
+  /*font-family: Consolas, monaco, monospace;*/
+}
+a, p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: #f1f3f5;
+}
+#navbar {
+  display: flex;
+  max-width: 1000px;
+  height: 50px;
+  margin: auto;
+}
+#nav-title {
+  width: 66%;
+  display: flex;
+  align-items: center;
+}
+#nav-title h1 {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  color: #3A506B;
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+}
+#nav-links-div {
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #3A506B;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-link:hover {
+  background-color: rgba(28, 37, 65, 0.1);
+  border-radius: 3px;
+}
+main {
+  margin: 0 auto;
+}
+/* Repository section. */
+#repos {
+  padding: 60px 50px 50px 50px;
+}
+#repos h2, #about h2, #contact h2 {
+  color: #0B132B;
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+/* gr = github repo */
+.gr {
+  border-radius: 5px;
+  background-color: rgba(11, 19, 43, 0.3);
+  border: 1px solid rgba(11, 19, 43, 0);
+  color: #0B132B;
+  max-width: 800px;
+  margin: 10px auto;
+}
+.gr:hover {
+  border: 1px solid rgba(11, 19, 43, 0.8);
+  background-color: rgba(11, 19, 43, 0.2);
+}
+.gr_header, .gr_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.gr_footer {
+  border-top: 1px solid rgba(11, 19, 43, 0.1);
+}
+.gr_title {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+.gr_link {
+  padding: 10px;
+  font-size: .8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0B132B;
+}
+.gr_link:hover {
+  background-color: rgba(28, 37, 65, 0.1);
+}
+.gr_link:visited {
+  color: #0B132B;
+}
+.gr_logo {
+  padding: 10px;
+  color: #0B132B;
+}
+.gr_desc {
+  font-size: .8em;
+  padding: 0 20px 10px 20px;
+  color: rgb(47, 64, 85);
+}
+.gr_remarks {
+  font-size: .8em;
+  padding: 10px;
+}
+/* About Me section. */
+#about {
+  padding: 60px 50px 90px 50px;
+  background-color: rgba(11, 19, 43, 0.3);
+}
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.description {
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f1f3f5;
+  color: #0B132B;
+}
+/* Contact Me links section. */
+#contact {
+  padding: 60px 50px 50px 50px;
+}
+#contact_link_div {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact_link {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.contact_link a {
+  color: #0B132B;
+  text-decoration: none;
+  padding: 18px;
+}
+.contact_link a:hover {
+  background-color: rgba(28, 37, 65, 0.1);
+  border-radius: 5px;
+}
+/* footer section */
+footer {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: rgba(11, 19, 43, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer_text {
+  width: 500px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #3A506B;
+}
