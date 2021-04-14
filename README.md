@@ -1,2 +1,3 @@
 # SDCoulter.github.io
-GitHub page for my account.
+
+This is the repo for my GitHub page: [SDCoulter.github.io](SDCoulter.github.io).
