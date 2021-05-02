@@ -119,6 +119,18 @@ main {
   font-size: .8em;
   padding: 10px;
 }
+.gr_ll_a {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  color: #0B132B;
+}
+.gr_ll_a:hover {
+  background-color: rgba(28, 37, 65, 0.1);
+}/*
 /* About Me section. */
 #about {
   padding: 60px 50px 90px 50px;
