@@ -22,9 +22,9 @@ header {
   max-width: 1000px;
   height: 50px;
   margin: auto;
+  justify-content: space-between;
 }
 #nav-title {
-  width: 66%;
   display: flex;
   align-items: center;
 }
@@ -37,10 +37,10 @@ header {
   font-family: 'Merriweather', serif;
 }
 #nav-links-div {
-  width: 34%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 40%;
 }
 .nav-link {
   color: #3A506B;
@@ -76,11 +76,20 @@ main {
   color: #0B132B;
   max-width: 800px;
   margin: 10px auto;
+  min-width: 400px;
 }
 .gr:hover {
   border: 1px solid rgba(11, 19, 43, 0.8);
   background-color: rgba(11, 19, 43, 0.2);
 }
+/* Personal project style */
+.pp {
+  background-color: rgba(11, 113, 137, 0.3);
+}
+.pp:hover {
+  background-color: rgba(11, 113, 137, 0.6);
+}
+
 .gr_header, .gr_footer {
   display: flex;
   justify-content: space-between;
@@ -189,4 +198,37 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #3A506B;
+}
+
+@media (max-width:1000px){
+  #nav-links-div {
+    width: auto;
+    padding-right: 10px;
+  }
+}
+
+
+@media (max-width:550px){
+  header {
+    height: 80px;
+  }
+  #navbar {
+    display: block;
+    text-align: center;
+    height: 80px;
+  }
+  #nav-title h1 {
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+  #nav-links-div {
+    margin-bottom: 5px 0;
+    justify-content: space-around;
+  }
+  #repos, #contact, #about {
+    min-width: 400px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
