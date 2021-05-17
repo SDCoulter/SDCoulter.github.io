@@ -139,7 +139,15 @@ main {
 }
 .gr_ll_a:hover {
   background-color: rgba(28, 37, 65, 0.1);
-}/*
+}
+.gr_no_link {
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  width: 60%;
+  font-weight: bold;
+}
+
 /* About Me section. */
 #about {
   padding: 60px 50px 90px 50px;
