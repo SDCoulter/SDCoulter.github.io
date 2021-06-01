@@ -99,7 +99,7 @@ main {
 }
 .gr_title {
   padding: 10px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 .gr_link {
@@ -120,7 +120,7 @@ main {
   color: #0B132B;
 }
 .gr_desc {
-  font-size: .8em;
+  font-size: 1em;
   padding: 0 20px 10px 20px;
   color: rgb(47, 64, 85);
 }
