@@ -75,7 +75,7 @@ main {
   border: 1px solid rgba(11, 19, 43, 0);
   color: #0B132B;
   max-width: 800px;
-  margin: 10px auto;
+  margin: 20px auto;
   min-width: 400px;
 }
 .gr:hover {
@@ -123,6 +123,9 @@ main {
   font-size: 1em;
   padding: 0 20px 10px 20px;
   color: rgb(47, 64, 85);
+  line-height: 1.3;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .gr_remarks {
   font-size: .8em;
