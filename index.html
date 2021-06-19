@@ -24,15 +24,34 @@
 
       <div class="gr">
         <div class="gr_header">
-          <p class="gr_title">Supervised Machine Learning</p>
+          <p class="gr_title">Supervised Machine Learning - Credit Risk Analysis</p>
           <div class="gr_logo"><i class="fab fa-github"></i></div>
         </div>
         <p class="gr_desc">
-          In this module we look at <strong>Supervised Machine Learning</strong>. This repo is a place to upload the different analyses we did through the module, rather than a full project. We looked at <strong>Modelling Linear and Logistic Regression</strong>, <strong>SVM Modelling</strong>, and measuring accuracy with <strong>Precision</strong>, <strong>Sensitivity</strong>, and the <strong>F1 Score</strong>. We also <strong>scaled and normalized data</strong> to perform analysis on. We dove deeper into <strong>Decision Tree and Random Forest Analysis</strong>, <strong>Gradient Boosting</strong>, and dealing with <strong>Class Imbalance</strong> by using <strong>Oversampling<strong>, <strong>Undersampling</strong>, and a combination of both.
+          In this look at Supervised Machine Learning we use Oversampling and Undersampling techniques and various modelling methods to assess credit card risk. In the real world this is an unbalanced classification problem, so we need to look at the best way to get fair samples to train our models and compare the results. The dataset contained our target variable ("loan_status") which splits the data into high risk versus low risk applicants. The goal of the machine learning algorithms is to predict, based on similar data provided, which class an application falls into.
+        </p>
+        <p class="gr_desc">
+          For oversampling we use the <strong>RandomOverSampler</strong> and <strong>SMOTE</strong> algorithms, and for undersampling we use <strong>ClusterCentroids</strong>. Combining these methods, we also make use of <strong>SMOTEENN</strong>. Using the newly resampled data we use <strong>LogisticRegression</strong> modelling to compare them against each other, by producing a <strong>Balanced Accuracy Score</strong>, a <strong>Confusion Matrix</strong>, and a <strong>Classification Report</strong>. We explored the machine learning models <strong>BalancedRandomForestClassifier</strong> and <strong>EasyEnsembleClassifier</strong> after this, passing in split data and comparing them in the same way as the sampling examples.
         </p>
         <div class="gr_footer">
           <p class="gr_remarks">
             Module 17 of UoT Data Analysis Bootcamp Course
+          </p>
+          <a href="https://github.com/SDCoulter/Credit_Risk_Analysis" class="gr_link" target="_blank">github.com/SDCoulter/Credit_Risk_Analysis</a>
+        </div>
+      </div>
+
+      <div class="gr">
+        <div class="gr_header">
+          <p class="gr_title">Supervised Machine Learning</p>
+          <div class="gr_logo"><i class="fab fa-github"></i></div>
+        </div>
+        <p class="gr_desc">
+          In this module we look at <strong>Supervised Machine Learning</strong>. This repo is a place to upload the different analyses we did through the module, rather than a full project. We looked at <strong>Modelling Linear and Logistic Regression</strong>, <strong>SVM Modelling</strong>, and measuring accuracy with <strong>Precision</strong>, <strong>Sensitivity</strong>, and the <strong>F1 Score</strong>. We also <strong>scaled and normalized data</strong> to perform analysis on. We dove deeper into <strong>Decision Tree and Random Forest Analysis</strong>, <strong>Gradient Boosting</strong>, and dealing with <strong>Class Imbalance</strong> by using <strong>Oversampling</strong>, <strong>Undersampling</strong>, and a combination of both.
+        </p>
+        <div class="gr_footer">
+          <p class="gr_remarks">
+            Module 17 - Non-Challenge - of UoT Data Analysis Bootcamp Course
           </p>
           <a href="https://github.com/SDCoulter/mod17_ml" class="gr_link" target="_blank">github.com/SDCoulter/mod17_ml</a>
         </div>
