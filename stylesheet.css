@@ -1,7 +1,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: #f1f3f5;
+  background-color: #FBFCFF;
   /*font-family: Consolas, monaco, monospace;*/
 }
 a, p {
@@ -15,7 +15,7 @@ header {
   top: 0;
   left: 0;
   height: 50px;
-  background-color: #f1f3f5;
+  background-color: #FBFCFF;
 }
 #navbar {
   display: flex;
@@ -34,7 +34,7 @@ header {
   padding-left: 20px;
   color: #3A506B;
   font-weight: lighter;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Slab', serif;
 }
 #nav-links-div {
   display: flex;
@@ -57,12 +57,12 @@ main {
 }
 /* Repository section. */
 #repos {
-  padding: 60px 50px 50px 50px;
+  padding: 40px 50px 50px 50px;
 }
 #repos h2, #about h2, #contact h2 {
   color: #3A506B;
   font-weight: lighter;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   margin: 10px;
   margin-bottom: 30px;
@@ -70,26 +70,38 @@ main {
 }
 /* gr = github repo */
 .gr {
-  border-radius: 5px;
-  background-color: rgba(11, 19, 43, 0.3);
-  border: 1px solid rgba(11, 19, 43, 0);
-  color: #0B132B;
+  border-radius: 12px;
+  background-color: rgba(0, 167, 225, 0.3);/*rgba(11, 19, 43, 0.3);*/
+  border: 1px solid rgba(0, 167, 225, 0.1);
+  color: #1A3C57;
   max-width: 800px;
   margin: 20px auto;
   min-width: 400px;
 }
 .gr:hover {
-  border: 1px solid rgba(11, 19, 43, 0.8);
-  background-color: rgba(11, 19, 43, 0.2);
+  background-color: rgba(0, 167, 225, 0.4);
+  border: 1px solid rgba(0, 167, 225, 0.3);
 }
 /* Personal project style */
 .pp {
-  background-color: rgba(11, 113, 137, 0.3);
+  background-color: rgba(255, 155, 66, 0.3);/*rgba(23, 113, 137, 0.3);*/
+  border: 1px solid rgba(255, 155, 66, 0.3);
 }
 .pp:hover {
-  background-color: rgba(11, 113, 137, 0.6);
+  background-color: rgba(255, 155, 66, 0.4);
+  border: 1px solid rgba(255, 155, 66, 0.3);
+}
+/* Personal Update style */
+.pu {
+  background-color: rgba(186, 18, 0, 0.3);/*rgba(23, 113, 137, 0.3);*/
+  border: 1px solid rgba(186, 18, 0, 0.1);
+}
+.pu:hover {
+  background-color: rgba(186, 18, 0, 0.4);
+  border: 1px solid rgba(186, 18, 0, 0.3);
 }
 
+/* gr headers */
 .gr_header, .gr_footer {
   display: flex;
   justify-content: space-between;
@@ -107,13 +119,13 @@ main {
   font-size: .8em;
   font-weight: bold;
   text-decoration: none;
-  color: #0B132B;
+  color: #1A3C57;
 }
 .gr_link:hover {
   background-color: rgba(28, 37, 65, 0.1);
 }
 .gr_link:visited {
-  color: #0B132B;
+  color: #1A3C57;
 }
 .gr_logo {
   padding: 10px;
@@ -122,7 +134,7 @@ main {
 .gr_desc {
   font-size: 1em;
   padding: 0 20px 10px 20px;
-  color: rgb(47, 64, 85);
+  color: #1A3C57;/*rgb(47, 64, 85);*/
   line-height: 1.3;
 }
 .gr_remarks {
@@ -136,7 +148,7 @@ main {
   font-weight: bold;
   padding: 5px;
   text-decoration: none;
-  color: #0B132B;
+  color: #1A3C57;
 }
 .gr_ll_a:hover {
   background-color: rgba(28, 37, 65, 0.1);
@@ -164,7 +176,7 @@ main {
   padding: 20px;
   border-radius: 5px;
   background-color: #f1f3f5;
-  color: #0B132B;
+  color: #1A3C57;
 }
 /* Contact Me links section. */
 #contact {
@@ -182,7 +194,7 @@ main {
   text-align: center;
 }
 .contact_link a {
-  color: #0B132B;
+  color: #1A3C57;
   text-decoration: none;
   padding: 18px;
 }
